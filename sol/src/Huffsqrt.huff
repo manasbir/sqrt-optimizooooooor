@@ -1,0 +1,8 @@
+//my implementation lel
+#define function sqrt(uint256) public pure returns (uint256)
+
+#define macro SQRT() = takes(0) returns(0) {
+    0x00 calldataload
+    //is removing the function selector cheating?
+    //will add if unfair
+}
