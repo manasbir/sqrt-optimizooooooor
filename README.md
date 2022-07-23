@@ -22,19 +22,32 @@ and actually more efficient than recursion
 
 # todo
 -make the oz guessing system in python (will do js or c++ if too hard)
+
 -can use guess w/o decimal into consideration, add something that will delete the float point part in the guess
+
 -find a way to graph txt files with a bunch of numbers (google spreadsheets should be good)
+
 -compare guesses vs recursion
+
 -once we find with has better convergence, compare guessing with no guessing
+
 -should have for graphs if we dont care about decimals
+
     1. newton no guess
+
     2. newton with guess
+
     3. babylonian no guess
+
     4. babylonian with guess
+
 
 # solidity todo:
 -make a solidity version of the best in yul, solidity, and huff
+
 -?????
+
 -profit
+
 
 -also learn why my method/implementation of the babylonian method overflows lmao
