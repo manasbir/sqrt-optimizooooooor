@@ -34,11 +34,8 @@ and actually more efficient than recursion
 -should have for graphs if we dont care about decimals
 
     1. newton no guess
-
     2. newton with guess
-
     3. babylonian no guess
-
     4. babylonian with guess
 
 
