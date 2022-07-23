@@ -1,11 +1,21 @@
 # optimizooor
- me wanting to learn yul (cringe name lmao)
+the eternal pursuit to get the most efficient square root function 
+
+sorry for the cringe lmao
+
+things will be written in python, then graphed, then written in solidity, then huff and yul
+
+figure out gas efficiency just cuz, alot of things im doing just cuz lmao
 
 # notes
 square root estimation is generally about making a good guess, 
+due to the fact that both methods i use are 'alledgedly' quadratically convergent 
+meaning that they double in accuracy everytime.
+
+the methods require a guess to start if that wasnt already implied.
+
 my math skills are generally lacking when it comes to reading the equations on wikipedia
-
-
+so iyw plz add more methods and help optimize the ones already written :)))))
 
 the two main methods (newton and babylonian method) for squareroots
 generally work the same way, with the same convergence rate. (will test to confirm)
