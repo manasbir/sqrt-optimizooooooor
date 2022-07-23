@@ -1,9 +1,6 @@
 import math 
 import os
 
-with open("words.txt","r") as words:
-    string_of_words = words.read()
-
 if os.path.exists("babyloniansqrt.txt"):
     os.remove("babyloniansqrt.txt")
 
@@ -20,6 +17,7 @@ def newtonSqrt (num):
     count = 0
     diff = 9999999
     while abs(diff) > error:
+        newton_file.write(str(guess) + "\n")
         newGuess = guess - ((guess**2 - num) / (2 * guess))        
 
         diff = (newGuess - guess)
@@ -35,10 +33,15 @@ def babylonianMethod(num):
     count = 0
     newGuess = 1
     while abs(newGuess - guess) > error:
+        babylonian_file.write(str(guess) + "\n")
         guess = (guess + newGuess)/2
         newGuess = num / guess
         count+=1
     return guess, count
 
-def sqrt(num):
-    return math.sqrt(num), babylonianMethod(num), approxSqrt(num)
+def sqrt(x):
+    babylonianMethod(x)
+    newtonSqrt(x)
+
+number = int(input("sqrt: "))
+sqrt(number)
