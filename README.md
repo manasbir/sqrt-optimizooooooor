@@ -20,6 +20,8 @@ so iyw plz add more methods and help optimize the ones already written :)))))
 the two main methods (newton and babylonian method) for squareroots
 generally work the same way, with the same convergence rate. (will test to confirm)
 
+they are the same kek, but only for when you are looking for sqrts
+
 https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
 
 alot of the work is to do with the guesses, and we will steal that off
