@@ -7,6 +7,8 @@ things will be written in python, then graphed, then written in solidity, then h
 
 figure out gas efficiency just cuz, alot of things im doing just cuz lmao
 
+need to rescratch kek
+
 # notes
 square root estimation is generally about making a good guess, 
 due to the fact that both methods i use are 'alledgedly' quadratically convergent 
