@@ -10,7 +10,7 @@ unsigned long long int newton_sqrt(unsigned long long int n) {
     unsigned long long int diff = 1;
 
     while (true) {
-        unsigned long long int new_guess = guess - ((guess * guess - n) / (2 * guess));
+        unsigned long long int new_guess = ((guess * guess + n) / (2 * guess));
 
         if (new_guess == guess) {
             break;
@@ -37,13 +37,11 @@ unsigned long long int babylonian_sqrt(unsigned long long int n) {
     unsigned long long int guess = n;
     //unsigned long long int i = 1;
     unsigned long long int y = 1;
-    while (true) {
+    while (guess - y > 0) {
         guess = (guess + y) / 2;
         y = n / guess;
-        if (guess == y) {
-            return guess;
-        }
     }
+    return guess;
 }
 
 int main() {

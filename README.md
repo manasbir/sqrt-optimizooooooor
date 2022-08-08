@@ -22,6 +22,11 @@ so iyw plz add more methods and help optimize the ones already written :)))))
 the two main methods (newton and babylonian method) for squareroots
 generally work the same way, with the same convergence rate. (will test to confirm)
 
+babylonian method has a tendancy to never end which is odd
+this is due to the fact that the diff between x and y can be stuck at 1 which doesnt satisfy the loop condition
+
+with the babylonian method, you have to balance 2 items rather than 1 like the newton method
+
 they are the same kek, but only for when you are looking for sqrts
 
 https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
@@ -30,9 +35,12 @@ alot of the work is to do with the guesses, and we will steal that off
 hackers delight/oz math.sol
 
 in solidity the decimals dont matter, so checks are easy
+i dont think yul math saves gas lol
 
 oz doesnt use checks but instead relies on the fact that the guesses made are good
-and actually more efficient than recursion
+and perhaps more efficient than recursion, i thinks thats due to checks
+
+a way to counteract this is to only check after a certain amount of guesses
 
 # todo
 -make the oz guessing system in python (will do js or c++ if too hard)
