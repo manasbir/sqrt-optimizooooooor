@@ -43,6 +43,8 @@ and perhaps more efficient than recursion, i thinks thats due to checks
 a way to counteract this is to only check after a certain amount of guesses
 
 # todo
+-figure out how oz makes its guesses
+
 -make the oz guessing system in python (will do js or c++ if too hard)
 
 -can use guess w/o decimal into consideration, add something that will delete the float point part in the guess

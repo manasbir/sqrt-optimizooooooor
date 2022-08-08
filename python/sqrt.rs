@@ -1,6 +1,8 @@
 //use std::cmp;
 
 fn main(){
+    println!("{}", sqrt(2.0));
+
     let (x, count1) = newton_sqrt(123123);
     println!("{x}, {count1}");
 
@@ -45,7 +47,8 @@ fn babylonian_sqrt(n: u128) -> (u128, u128) {
     let mut count = 0;
     loop {
         count+=1;
-        x = (x+y)/2;
+        x = (x+y)/2; //averages the numbers but causes overflow
+        // can fix with x = (x&y) + (x^y) / 2
         y = n/x;
         //wont be necessary if we dont use guessing recursively
         if x > y {
