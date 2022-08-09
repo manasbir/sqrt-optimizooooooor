@@ -1,7 +1,9 @@
 //use std::cmp;
 
 fn main(){
-    println!("{}", sqrt(2.0));
+    // figure out how to read input
+    io::stdin().read_line(&mut String::new()).unwrap();
+    println!("ground truth {}", sqrt(2.0));
 
     let (x, count1) = newton_sqrt(123123);
     println!("{x}, {count1}");
