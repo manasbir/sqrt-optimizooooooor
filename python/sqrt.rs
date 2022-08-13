@@ -1,17 +1,21 @@
 //use std::cmp;
+use std::io;
 
-fn main(){
-    // figure out how to read input
-    io::stdin().read_line(&mut String::new()).unwrap();
-    println!("ground truth {}", sqrt(2.0));
+fn main() {
 
-    let (x, count1) = newton_sqrt(123123);
+    let mut input = f64;
+    io::stdin().read_line(&mut input).unwrap();
+
+
+    println!("ground truth {}", f64::sqrt(input));
+
+    let (x, count1) = newton_sqrt(input);
     println!("{x}, {count1}");
 
-    let (y, count2) = other_sqrt(123123);
+    let (y, count2) = other_sqrt(input);
     println!("{y}, {count2}");
 
-    let (z, count3) = babylonian_sqrt(123123);
+    let (z, count3) = babylonian_sqrt(input);
     println!("{z}, {count3}");
 }
 
