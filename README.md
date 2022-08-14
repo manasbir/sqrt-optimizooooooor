@@ -3,7 +3,7 @@ the eternal pursuit to get the most efficient square root function
 
 sorry for the cringe lmao
 
-things will be written in python, then graphed, then written in solidity, then huff and yul
+things will be written in python, then graphed, then written in solidity, then huff and yul (yul idk why, but its my repo lol)
 
 figure out gas efficiency just cuz, alot of things im doing just cuz lmao
 
@@ -32,15 +32,17 @@ they are the same kek, but only for when you are looking for sqrts
 https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
 
 alot of the work is to do with the guesses, and we will steal that off
-hackers delight/oz math.sol
+hackers delight/oz math.sol for initial testing
 
 in solidity the decimals dont matter, so checks are easy
 i dont think yul math saves gas lol
 
 oz doesnt use checks but instead relies on the fact that the guesses made are good
-and perhaps more efficient than recursion, i thinks thats due to checks
+and perhaps more efficient than recursion, i thinks thats due to the checks not being worth it computationally
 
-a way to counteract this is to only check after a certain amount of guesses
+a way to counteract this is to only check after a certain amount of guesses, but that is also hard to do
+
+we could also check for when it reaches a dif of one, but that's quite a bit of computation
 
 # todo
 -figure out how oz makes its guesses
@@ -71,4 +73,4 @@ a way to counteract this is to only check after a certain amount of guesses
 -profit
 
 
--also learn why my method/implementation of the babylonian method overflows lmao
+-~~also learn why my method/implementation of the babylonian method overflows lmao~~
