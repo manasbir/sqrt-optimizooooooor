@@ -11,9 +11,6 @@ fn main() {
     let (x, count1) = newton_sqrt(number);
     println!("newton square root {x}, {count1}");
 
-    let (y, count2) = other_sqrt(number);
-    println!("other method {y}, {count2}");
-
     let (z, count3) = babylonian_sqrt(number);
     println!("babylonian sqrt {z}, {count3}");
 }
@@ -24,20 +21,6 @@ fn newton_sqrt(n: u128) -> (u128, u128) {
     loop {
         count+=1;
         let y = (x + n / x) / 2; // this is x-(x*x-n)/(2*x) simplified
-        if x == y {
-            x = std::cmp::min(y, n/y);
-            return (x, count);
-        }
-        x = y;
-    }
-}
-
-fn other_sqrt(n: u128) -> (u128, u128) {
-    let mut x = n;
-    let mut count = 0;
-    loop {
-        count+=1;
-        let y = (x + n / x) / 2;
         if x == y {
             x = std::cmp::min(y, n/y);
             return (x, count);
@@ -72,3 +55,7 @@ fn babylonian_sqrt(n: u128) -> (u128, u128) {
 /*     x = std::cmp::min(x, n/x);
     return (x, count); */
 }
+
+//now i should just copy the oz guesing system
+// and also implement the one i thought of tht also takes advantage of msb
+// also read the hackers delight chapter to uinderstand it better

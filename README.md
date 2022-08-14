@@ -42,6 +42,7 @@ and perhaps more efficient than recursion, i thinks thats due to the checks not 
 
 a way to counteract this is to only check after a certain amount of guesses, but that is also hard to do
 
+
 we could also check for when it reaches a dif of one, but that's quite a bit of computation
 
 # todo
