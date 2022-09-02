@@ -2,7 +2,24 @@
 use std::io;
 
 fn main() {
-    let mut input = String::new();
+    let mut i = 4;
+    while i < u128::MAX {
+
+        println!("ground truth {}", f64::sqrt(i as f64));
+
+        let (x, count1) = newton_sqrt(i);
+        println!("newton square root {x}, {count1}");
+
+        let (z, count3) = babylonian_sqrt(i);
+        println!("babylonian sqrt {z}, {count3}");
+
+        let (num, num2) = msb_sqrt(i);
+        println!("{num}, {num2}");
+
+        i*=2;
+    }
+
+    /* let mut input = String::new();
     io::stdin().read_line(&mut input).unwrap();
     let number: u128 = input.trim().parse().unwrap();
 
@@ -13,6 +30,9 @@ fn main() {
 
     let (z, count3) = babylonian_sqrt(number);
     println!("babylonian sqrt {z}, {count3}");
+
+    let (num, num2) = msb_sqrt(number);
+    println!("{num}, {num2}"); */
 }
 
 fn newton_sqrt(n: u128) -> (u128, u128) {
@@ -21,9 +41,17 @@ fn newton_sqrt(n: u128) -> (u128, u128) {
     loop {
         count+=1;
         let y = (x + n / x) / 2; // this is x-(x*x-n)/(2*x) simplified
-        if x == y {
-            x = std::cmp::min(y, n/y);
-            return (x, count);
+        if x > y {
+            if x-y <= 1 {
+                x = std::cmp::min(x, n/x);
+                return (x, count);
+            }
+        } else {
+            if y-x <= 1 {
+                x = std::cmp::min(x, n/x);
+                return (x, count);
+            }
+            
         }
         x = y;
     }
@@ -54,6 +82,44 @@ fn babylonian_sqrt(n: u128) -> (u128, u128) {
     }
 /*     x = std::cmp::min(x, n/x);
     return (x, count); */
+}
+
+fn msb_sqrt(n: u128) -> (u128, u128) {
+    let mut result = 1;
+    let mut x = n;
+    let mut count = 0;
+
+    /* if(x >> 128 > 0) {
+        x >>= 128;
+        result <<= 64;
+    } */
+    // asking if x is greater than 
+    if(x >> 64 > 0) {
+        x >>= 64;
+        result <<= 32;
+    }
+    if(x >> 32 > 0) {
+        x >>= 32;
+        result <<= 16;
+    }
+    if(x >> 16 > 0) {
+        x >>= 16;
+        result <<= 8;
+    }
+    if(x >> 8 > 0) {
+        x >>= 8;
+        result <<= 4;
+    }
+    if(x >> 4 > 0) {
+        x >>= 4;
+        result <<= 2;
+    }
+    if(x >> 2 > 0) {
+        x >>= 2;
+        result <<= 1;
+    }
+
+    return (result, x);
 }
 
 //now i should just copy the oz guesing system
