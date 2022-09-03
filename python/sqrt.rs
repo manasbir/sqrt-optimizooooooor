@@ -1,5 +1,5 @@
 //use std::cmp;
-use std::io;
+//use std::io;
 
 fn main() {
     let mut i = 4;
@@ -37,7 +37,7 @@ fn main() {
     println!("{num}, {num2}"); */
 }
 
-fn newton_sqrt(n: u128) -> (u128, u128) {
+pub fn newton_sqrt(n: u128) -> (u128, u128) {
     let mut x = n;
     let mut count = 0;
     loop {
@@ -59,7 +59,7 @@ fn newton_sqrt(n: u128) -> (u128, u128) {
     }
 }
 
-fn babylonian_sqrt(n: u128) -> (u128, u128) {
+pub fn babylonian_sqrt(n: u128) -> (u128, u128) {
     let mut x = n;
     let mut y = 1;
     let mut count = 0;
@@ -86,7 +86,7 @@ fn babylonian_sqrt(n: u128) -> (u128, u128) {
     return (x, count); */
 }
 
-fn msb_sqrt(n: u128) -> (u128, u128) {
+pub fn msb_sqrt(n: u128) -> (u128, u128) {
     let mut result = 1;
     let mut x = n;
     let mut count = 0;
@@ -106,27 +106,27 @@ fn msb_sqrt(n: u128) -> (u128, u128) {
     // then the sqrt would be 2^x/2
     // will need to do a bit of testing and research
     // hehe
-    if (x >> 64 > 0) {
+    if x >> 64 > 0 {
         x >>= 64;
         result <<= 32;
     }
-    if (x >> 32 > 0) {
+    if x >> 32 > 0 {
         x >>= 32;
         result <<= 16;
     }
-    if (x >> 16 > 0) {
+    if x >> 16 > 0 {
         x >>= 16;
         result <<= 8;
     }
-    if (x >> 8 > 0) {
+    if x >> 8 > 0 {
         x >>= 8;
         result <<= 4;
     }
-    if (x >> 4 > 0) {
+    if x >> 4 > 0 {
         x >>= 4;
         result <<= 2;
     }
-    if (x >> 2 > 0) {
+    if x >> 2 > 0 {
         result <<= 1;
     }
 
