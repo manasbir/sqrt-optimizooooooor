@@ -13,7 +13,7 @@ fn main() -> std::io::Result<()> {
         let mut binary = format!("{i:b}").len();
         let mut binary2 = format!("{x:b}").len();
         if binary2 * 2 != binary {
-            string.push_str(&"{i}, {x}, {binary}, {binary2} \n");
+            string.push_str(&format!("{i}, {x}, {binary}, {binary2} \n"));
         }
         //string.push_str(&format!("{i:b} \n").to_string());
         //string.push_str(&format!("{x:b} \n \n \n").to_string());
