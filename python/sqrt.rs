@@ -2,7 +2,7 @@
 //use std::io;
 
 fn main() {
-    let mut i = 4;
+    let mut i = 3;
     while i < u128::MAX {
 
         println!("{i}");
@@ -106,6 +106,9 @@ pub fn msb_sqrt(n: u128) -> (u128, u128) {
     // then the sqrt would be 2^x/2
     // will need to do a bit of testing and research
     // hehe
+
+    // appears to be true to an error of ±1 binary digits
+
     if x >> 64 > 0 {
         x >>= 64;
         result <<= 32;
