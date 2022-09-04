@@ -12,7 +12,7 @@ fn main() -> std::io::Result<()> {
         let (x, count1) = sqrt::newton_sqrt(i);
         let mut binary = format!("{i:b}").len();
         let mut binary2 = format!("{x:b}").len();
-        if binary2 * 2 != binary {
+        if binary2 != binary  / 2{
             string.push_str(&format!("{i}, {x}, {binary}, {binary2} \n"));
         }
         //string.push_str(&format!("{i:b} \n").to_string());

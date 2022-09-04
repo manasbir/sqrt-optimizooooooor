@@ -1,7 +1,11 @@
 exceptions to the rule that x^2 in binary.length()/2 == x in binary.length()
-is only off by one, so its proabably just a rounding deal
+is only off by one, so its probably just a rounding deal
 its not an issue bc the rounding is correct, just that these are odd numbers
 so we could say this rule is true
+
+solidity will always round down though
+making this for the large part good 
+
 4, 2, 3, 2 
 16, 3, 5, 2 
 64, 8, 7, 4 
