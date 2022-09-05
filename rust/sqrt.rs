@@ -109,6 +109,13 @@ pub fn msb_sqrt(n: u128) -> (u128, u128) {
 
     // appears to be true to an error of ±1 binary digits
 
+    // the binary of result looks like 10000 with a varying number of 0s
+    
+    // i wonder if we could make it like 11000
+    // just one extra 1
+
+    // since result is always less than our answer
+
     if x >> 64 > 0 {
         x >>= 64;
         result <<= 32;
