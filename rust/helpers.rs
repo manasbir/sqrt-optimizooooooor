@@ -1,4 +1,6 @@
-fn is_closer_to (x: u128, y: u128, n: u128) -> bool {
+pub fn is_closer_to (x: u128, y: u128, n: u128) -> bool {
+    let mut x_diff;
+    let mut y_diff;
     if x > n {
         x_diff = x-n;
     } else {
