@@ -1,4 +1,6 @@
 pub fn is_closer_to (x: u128, y: u128, n: u128) -> bool {
+    // doesn't include the case where x and y are equal
+    // but odds of that are low
     let mut x_diff;
     let mut y_diff;
     if x > n {
@@ -11,7 +13,7 @@ pub fn is_closer_to (x: u128, y: u128, n: u128) -> bool {
     } else {
         y_diff = n-y;
     }
-    if x_diff < y_diff {
+    if x_diff <= y_diff {
         return true;
     } else {
         return false;

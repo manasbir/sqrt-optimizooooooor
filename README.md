@@ -1,4 +1,6 @@
 # optimizooor
+# ill update this later lol, so much to write
+### ill publish an article if it gets interesting or if anyone cares
 the eternal pursuit to get the most efficient square root function 
 
 sorry for the cringe lmao
