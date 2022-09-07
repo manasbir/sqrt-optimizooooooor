@@ -9,12 +9,13 @@ fn main() {
 
     let mut i = 4;
     let mut string = String::new();
-    while i < 9223372036854775808 {
+    while i < 117420511696468706786662444551044609602 {
         let (x, count1) = sqrt::newton_sqrt(i);
-        let (guess, y) = msb_test::sqrt(i);
+        let (guess, y) = sqrt::msb_sqrt2(i);
         let (guess2, z) = sqrt::msb_sqrt(i);
 
         // need a way to differentiate between which is better
+        // bad idea
         if helpers::is_closer_to(guess, guess2, x) {
             string.push_str(&format!("{i}, {x}, {guess}, {guess2}\n").to_string());
             string.push_str(&format!("{i:b}, {guess:b}\n").to_string());
@@ -27,7 +28,9 @@ fn main() {
 
         //string.push_str(&format!("{i:b} \n").to_string());
         //string.push_str(&format!("{x:b} \n \n \n").to_string());
-        i+=13;
+        i*=3;
+        i/=2;
+        
     }
     file.write_all(string.as_bytes()).unwrap();
 
