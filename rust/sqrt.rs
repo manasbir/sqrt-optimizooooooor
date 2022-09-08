@@ -91,6 +91,13 @@ pub fn msb_sqrt(n: u128) -> (u128, u128) {
     let mut x = n;
     let mut count = 0;
 
+    // msb is just finding the length of the binary number
+    // and div by 2
+    // but finding that number in of itself is quite hard
+    // if the length is submitted in the calldata it would be epic
+    // like return a string with length and stuff
+    
+
     /* if(x >> 128 > 0) {
         x >>= 128;
         result <<= 64;

@@ -4,7 +4,6 @@ mod sqrt;
 
 fn main() {
     let mut file = File::create("msb_test.txt").unwrap();
-    sqrt::newton_sqrt(15);
 
     let mut i = 4;
     let mut string = String::new();
