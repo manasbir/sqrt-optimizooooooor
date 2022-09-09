@@ -1,7 +1,3 @@
-pub fn control(n: u128) -> u128 {
-    return n;
-}
-
 pub fn oz_msb(n: u128) -> u128 {
     let mut result = 1;
     let mut x = n;
@@ -67,6 +63,6 @@ pub fn alt_msb(n: u128) -> u128 {
 
 }
 
-pub fn div_by_2(n: u128) -> u128 {
+/* pub fn div2(n: u128) -> u128 {
     return n >> 1;
-}
+} */

@@ -3,8 +3,8 @@ pub fn is_closer_to (x: u128, y: u128, n: u128) -> bool {
     // only one scenario where this happened so far
     // ill add a equals option tomorrow pogU
     // but odds of that are low
-    let mut x_diff;
-    let mut y_diff;
+    let x_diff;
+    let y_diff;
     if x > n {
         x_diff = x-n;
     } else {
