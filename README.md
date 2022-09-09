@@ -1,11 +1,16 @@
 # optimizooor
 # ill update this later lol, so much to write
-### ill publish an article if it gets interesting or if anyone cares
+## ill publish an article if it gets interesting or if anyone cares
+
+# new notes !!!!!!
+
+
+
 the eternal pursuit to get the most efficient square root function 
 
-sorry for the cringe lmao
-
 things will be written in python, then graphed, then written in solidity, then huff and yul (yul idk why, but its my repo lol)
+
+no graphs
 
 figure out gas efficiency just cuz, alot of things im doing just cuz lmao
 
@@ -77,3 +82,5 @@ we could also check for when it reaches a dif of one, but that's quite a bit of 
 
 
 -~~also learn why my method/implementation of the babylonian method overflows lmao~~
+
+-why i cross out bruh

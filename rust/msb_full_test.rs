@@ -41,7 +41,13 @@ fn main() {
             println!("i: {i}, oz: {oz_guess_fastest_count}, alt: {alt_guess_fastest_count}, ties: {tie}");
         }
         // i: 670601741179819176, oz: 743756524, alt: 2140170377, ties: 608109863
-        making progress
+        // making progress
+        // need to see if this is actually helpful for limiting iterations of newton_sqrt
+        // so for uint256, it would only be better if it limited iterations to 6
+        
+        // also need to test if recursion or set amounts is faster
+        // this can only be done in huff as the gas savings are very minor
+        // im guessing it costs for gas to do recursively
     }
 
 }
