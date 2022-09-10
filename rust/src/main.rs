@@ -13,9 +13,9 @@ fn main() {
     //let mut file = File::create("guess_test.txt").unwrap();
     let mut i: U256 = 4.into();
     //let mut string = String::new();
-    let mut alt_guess_fastest_count = 0;
-    let mut oz_guess_fastest_count = 0;
-    let mut tie = 0;
+    let mut alt_guess_fastest_count: u128 = 0;
+    let mut oz_guess_fastest_count: u128 = 0;
+    let mut tie: u128 = 0;
 
     while i < U256::MAX {
         let fastest_method;
