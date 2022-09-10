@@ -1,4 +1,3 @@
-use ethers::prelude::*;
 use ethers::types::U256;
 
 pub fn newton_sqrt (n: U256, guess: U256) -> U256 {

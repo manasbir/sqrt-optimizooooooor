@@ -1,4 +1,3 @@
-use ethers::prelude::*;
 use ethers::types::U256;
 
 pub fn oz_msb(n: U256) -> U256 {

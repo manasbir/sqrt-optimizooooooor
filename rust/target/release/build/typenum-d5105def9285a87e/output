@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/manas/Documents/projectrs/optimizooor/rust/target/release/build/typenum-d5105def9285a87e/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/manas/Documents/projectrs/optimizooor/rust/target/release/build/typenum-d5105def9285a87e/out/op.rs
