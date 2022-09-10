@@ -4,8 +4,13 @@
 
 # new notes !!!!!!
 
+there are no new notes >:(
 
+- figure out rust bs
 
+- figure out if babylonian or newton cost less gas
+
+##
 the eternal pursuit to get the most efficient square root function 
 
 things will be written in python, then graphed, then written in solidity, then huff and yul (yul idk why, but its my repo lol)
