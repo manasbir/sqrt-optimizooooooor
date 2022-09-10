@@ -1,0 +1,11 @@
+/Users/manas/Documents/projectrs/optimizooor/rust/target/release/deps/coins_bip39-214912a3940efe4f.rmeta: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt
+
+/Users/manas/Documents/projectrs/optimizooor/rust/target/release/deps/libcoins_bip39-214912a3940efe4f.rlib: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt
+
+/Users/manas/Documents/projectrs/optimizooor/rust/target/release/deps/coins_bip39-214912a3940efe4f.d: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt
+
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt:

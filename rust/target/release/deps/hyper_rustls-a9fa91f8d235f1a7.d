@@ -1,0 +1,11 @@
+/Users/manas/Documents/projectrs/optimizooor/rust/target/release/deps/hyper_rustls-a9fa91f8d235f1a7.rmeta: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/config.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector/builder.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/stream.rs
+
+/Users/manas/Documents/projectrs/optimizooor/rust/target/release/deps/libhyper_rustls-a9fa91f8d235f1a7.rlib: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/config.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector/builder.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/stream.rs
+
+/Users/manas/Documents/projectrs/optimizooor/rust/target/release/deps/hyper_rustls-a9fa91f8d235f1a7.d: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/config.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector/builder.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/stream.rs
+
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/lib.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/config.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/connector/builder.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-rustls-0.23.0/src/stream.rs:
