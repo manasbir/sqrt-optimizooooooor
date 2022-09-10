@@ -11,8 +11,7 @@ use ethers::types::U256;
 
 fn main() {
     //let mut file = File::create("guess_test.txt").unwrap();
-    let mut i = U256;
-    i = 4;
+    let mut i: U256 = 4.into();
     //let mut string = String::new();
     let mut alt_guess_fastest_count = 0;
     let mut oz_guess_fastest_count = 0;
@@ -20,11 +19,11 @@ fn main() {
 
     while i < U256::MAX {
         let fastest_method;
-        let mut oz = guessing_methods::oz_msb(i);
-        let mut alt = guessing_methods::alt_msb(i);
+        let oz_guess = guessing_methods::oz_msb(i);
+        let alt_guess = guessing_methods::alt_msb(i);
 
-        oz = sqrt_guess::newton_sqrt(i, oz);
-        alt = sqrt_guess::newton_sqrt(i, alt);
+        let oz = sqrt_guess::newton_sqrt(i, oz_guess);
+        let alt = sqrt_guess::newton_sqrt(i, alt_guess);
 
 
         if oz < alt {
@@ -40,9 +39,10 @@ fn main() {
 
 
 
-        i+=192037423; // rand number
+
+        i+=192037423.into(); // rand number
         //println!("{fastest_method}");
-        if i % 9999999 == 0 {
+        if i % 9999999 == 0.into() {
             println!("{fastest_method}salt");
             println!("i: {i}, oz: {oz_guess_fastest_count}, alt: {alt_guess_fastest_count}, ties: {tie}");
         }

@@ -1,0 +1,10 @@
+/Users/manas/Documents/projectrs/optimizooor/rust/target/debug/deps/ethers-41efca69dc619947.rmeta: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/CONTRACT_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/CORE_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/PROVIDERS_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/MIDDLEWARE_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/SIGNERS_README.md
+
+/Users/manas/Documents/projectrs/optimizooor/rust/target/debug/deps/ethers-41efca69dc619947.d: /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/lib.rs /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/CONTRACT_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/CORE_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/PROVIDERS_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/MIDDLEWARE_README.md /Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/SIGNERS_README.md
+
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/lib.rs:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/CONTRACT_README.md:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/CORE_README.md:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/PROVIDERS_README.md:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/MIDDLEWARE_README.md:
+/Users/manas/.cargo/registry/src/github.com-1ecc6299db9ec823/ethers-0.17.0/src/../assets/SIGNERS_README.md:
