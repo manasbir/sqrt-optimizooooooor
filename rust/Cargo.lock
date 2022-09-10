@@ -1636,13 +1636,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust"
-version = "0.1.0"
-dependencies = [
- "ethers",
-]
-
-[[package]]
 name = "rust_decimal"
 version = "1.26.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1900,6 +1893,13 @@ checksum = "67cf02bbac7a337dc36e4f5a693db6c21e7863f45070f7064577eb4367a3212b"
 dependencies = [
  "base64ct",
  "der",
+]
+
+[[package]]
+name = "sqrt-optimization"
+version = "0.1.0"
+dependencies = [
+ "ethers",
 ]
 
 [[package]]

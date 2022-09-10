@@ -1,3 +1,7 @@
+// not actuall main.rs
+// but msb_fulltest.rs
+
+
 //use std::fs::File;
 //use std::io::prelude::*;
 mod guessing_methods;
@@ -8,7 +12,8 @@ use ethers::types::U256;
 
 fn main() {
     //let mut file = File::create("guess_test.txt").unwrap();
-    let mut i = 4;
+    let mut i = U256;
+    i = 4;
     //let mut string = String::new();
     let mut alt_guess_fastest_count = 0;
     let mut oz_guess_fastest_count = 0;
