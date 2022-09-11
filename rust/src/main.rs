@@ -38,7 +38,7 @@ fn main() {
         }
 
         if fastest_method >= 7 {
-            println!("oz: {oz}, alt {alt}")
+            println!("oz: {oz}, alt {alt}");
         }
         
         // create a string and constrantly push to it
