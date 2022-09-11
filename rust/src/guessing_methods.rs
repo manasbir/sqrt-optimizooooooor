@@ -3,7 +3,6 @@ use ethers::types::U256;
 pub fn oz_msb(n: U256) -> U256 {
     let mut result: U256 = 1.into();
     let mut x = n;
-
     
     if x >> 128 > 0.into() {
         x >>= 128;
