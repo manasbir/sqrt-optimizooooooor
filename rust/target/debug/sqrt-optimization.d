@@ -1,1 +1,0 @@
-/Users/manas/Documents/projectrs/optimizooor/rust/target/debug/sqrt-optimization: /Users/manas/Documents/projectrs/optimizooor/rust/src/guessing_methods.rs /Users/manas/Documents/projectrs/optimizooor/rust/src/main.rs /Users/manas/Documents/projectrs/optimizooor/rust/src/sqrt_guess.rs
