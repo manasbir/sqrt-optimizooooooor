@@ -1,11 +1,12 @@
 # optimizooor
-# why is half the repo makefile all of a sudden????
 # ill update this later lol, so much to write
 ## ill publish an article if it gets interesting or if anyone cares
 
 # new notes !!!!!!
 
 there are no new notes >:(
+
+- figure out how the solmate implementation works
 
 - figure out rust bs
 
