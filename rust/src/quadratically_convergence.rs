@@ -1,0 +1,2 @@
+// quadratical convergence means
+// ????

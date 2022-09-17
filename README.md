@@ -8,9 +8,16 @@ there are no new notes >:(
 
 - figure out how the solmate implementation works
 
-- figure out rust bs
-
 - figure out if babylonian or newton cost less gas
+
+- if my method requires one less iteration
+
+- figure out what quadratically convergent really means, like what is the worst case scenario with enough accuracy
+and can we prove it mathematically
+
+
+
+
 
 ##
 the eternal pursuit to get the most efficient square root function 
