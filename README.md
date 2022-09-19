@@ -1,5 +1,6 @@
 # optimizooor
 # ill update this later lol, so much to write
+## learning derivatives atm, so i can mess with understanding quadratic convergence
 ## ill publish an article if it gets interesting or if anyone cares
 
 # new notes !!!!!!
