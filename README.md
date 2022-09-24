@@ -16,6 +16,8 @@ there are no new notes >:(
 - figure out what quadratically convergent really means, like what is the worst case scenario with enough accuracy
 and can we prove it mathematically
 
+-  ``z := sub(z, lt(div(x, z), z))`` is such a banger line of code
+
 
 
 
