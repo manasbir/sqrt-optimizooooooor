@@ -1,4 +1,5 @@
-pub fn is_closer_to (x: u128, y: u128, n: u128) -> bool {
+use ethers::types::U256;
+pub fn is_closer_to (x: U256, y: U256, n: U256) -> bool {
     // doesn't include the case where x and y are equal
     // only one scenario where this happened so far
     // ill add a equals option tomorrow pogU

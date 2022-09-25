@@ -5,12 +5,14 @@ mod sqrt;
 
 fn main() {
     let mut file = File::create("testing_dif_msb.txt").unwrap();
-    sqrt::newton_sqrt(15);
 
     let mut i = 4;
+
     let mut string = String::new();
+
     let mut my_guess_closest_count = 0;
     let mut oz_guess_closest_count = 0;
+    
     while i < 117420511696468706786662444551044609602 {
         let (x, count1) = sqrt::newton_sqrt(i);
         let (guess, y) = sqrt::msb_sqrt2(i);
