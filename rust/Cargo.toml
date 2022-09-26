@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 ethers = "0.17.0"
+
+[[bin]]
+name = "quad"
+path = "./src/quadratically_convergence.rs"

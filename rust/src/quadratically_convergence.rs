@@ -9,22 +9,35 @@ mod guessing_methods;
 
 
 fn main() {
-    let mut i: U256 = 9134535344534513451345.into();
-    let mut i_string = String::new();
-    let mut string2 = String::new();
-    let mut file = File::create("i.txt").unwrap();
+    let mut i: U256 = U256::MAX>>128;
+    let mut string = String::new();
+    //let mut string2 = String::new();
+    let mut file = File::create("quad_conv_wo_guess.txt").unwrap();
+    string.push_str(&format!("i, count, iterations, iterations_in_binary \n"));
 
-    while i < 117420511696468706786662444551044609602.into() {
-        let (x, count1, iterations1) = quad_conv_proof::newton_sqrt(i, i);
+    while i < U256::MAX/1.5.into() {
+        let (x, iterations1) = quad_conv_proof::newton_sqrt(i, i);
         // ignoring the my super swag method for now
-        let (y, count2, iterations2) = quad_conv_proof::newton_sqrt(i, guessing_methods::oz_msb(i));
+        //let (y, iterations2) = quad_conv_proof::newton_sqrt(i, guessing_methods::oz_msb(i));
 
-        i_string.push_str(&format!("{i},").to_string());
-        string2.push_str(&format!("{},").to_string());
-        string.push_str(&format!("{x:b}, {guess:b}\n\n").to_string());
+        string.push_str(&format!("{}, {}, \n", i, iterations1.len()).to_string());
 
-        i*=3;
+        let iterations = iterations1.iter().map(|x| x.to_string()).collect::<Vec<String>>().join(", ");
+        let iterations_in_binary = iterations1.iter().map(|x| format!("{:b}", x)).collect::<Vec<String>>().join(", ");
+        // copilot is godsend
+
+        // todo:
+        // compare x to iterations and compare that to dif iterations
+        // do the same in binary
+        // do the same but with correct # of digits rather than numerically
+        // do the same in binary
+
+        string.push_str(&format!("{iterations}\n").to_string());
+        string.push_str(&format!("{iterations_in_binary}\n\n").to_string());
+
         i/=2;
-        file.write_all(final_string.as_bytes()).unwrap();
+        i*=3;
+
+        file.write_all(string.as_bytes()).unwrap();
     }
 }
