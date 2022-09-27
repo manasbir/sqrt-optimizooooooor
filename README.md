@@ -1,6 +1,6 @@
 # optimizooor
 # ill update this later lol, so much to write
-## learning derivatives atm, so i can mess with understanding quadratic convergence
+## learning a lot of math atm, so i can mess with understanding quadratic convergence
 ## ill publish an article if it gets interesting or if anyone cares
 
 # new notes !!!!!!
@@ -8,8 +8,6 @@
 there are no new notes >:(
 
 - figure out how the solmate implementation works
-
-- figure out if babylonian or newton cost less gas
 
 - if my method requires one less iteration
 
