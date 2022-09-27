@@ -4,7 +4,6 @@
 use std::fs::File;
 use std::io::prelude::*;
 use ethers::types::U256;
-use csv;
 mod quad_conv_proof;
 mod guessing_methods;
 
@@ -24,7 +23,7 @@ fn main() {
         string.push_str(&format!("{}, {}, \n", i, iterations1.len()).to_string());
 
         let iteratiosn = iterations1.iter().map(|x| x.to_string()).collect::<Vec<String>>().join(", ");
-        let iterations_in_binary = iterations1.into_iter().map(|x| {format!("{x:b}")}).collect::<Vec<_>>().join(", ");
+        let iterations_in_binary = iterations1.into_iter().map(|x| {format!("{x:b}")}).collect::<Vec<String>>().join(", ");
         // copilot is godsend
 
         // todo:
@@ -39,6 +38,7 @@ fn main() {
         i/=2;
         i*=3;
 
-        file.write_all(string.as_bytes()).unwrap();
+        //fix this lol
+        //file.write_all(string.as_bytes()).unwrap();
     }
 }
