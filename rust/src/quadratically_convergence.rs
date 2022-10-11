@@ -32,7 +32,7 @@ fn main() {
         // do the same but with correct # of digits rather than numerically
         // do the same in binary
 
-        string.push_str(&format!("{iterations1}\n").to_string());
+        string.push_str(&format!("{iteratiosn}\n").to_string());
         string.push_str(&format!("{iterations_in_binary}\n\n").to_string());
 
         i/=2;

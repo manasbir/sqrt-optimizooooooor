@@ -6,6 +6,7 @@
 //use std::io::prelude::*;
 mod guessing_methods;
 mod sqrt_guess;
+mod test_u256;
 use ethers::types::U256;
 //mod helpers;
 
