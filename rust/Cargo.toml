@@ -15,4 +15,4 @@ path = "./src/quadratically_convergence.rs"
 
 [[bin]]
 name = "test"
-path = "./src/test_U256.rs"
+path = "./src/no_guess_test.rs"
