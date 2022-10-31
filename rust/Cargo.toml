@@ -16,3 +16,7 @@ path = "./src/quadratically_convergence.rs"
 [[bin]]
 name = "test"
 path = "./src/no_guess_test.rs"
+
+[[bin]]
+name =  "test2"
+path = "./src/quad_conv_b.rs"
