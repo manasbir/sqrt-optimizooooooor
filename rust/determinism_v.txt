@@ -1,64 +1,67 @@
-i: 1234567866790, y: 21 
-guess: 98273483741 error_1: 98272372630 error_2: 0 
-mul_error_1: 88445 mul_error_2: 0 
+i: 283417298347, y: 22 
+guess: 98273483741 error_1: 98272951372 error_2: 0 
+mul_error_1: 184595 mul_error_2: 0 
 
-guess: 49136741876 error_1: 49135630765 error_2: 49136741865 
-mul_error_1: 44222 mul_error_2: 44223 
+guess: 49136741871 error_1: 49136209502 error_2: 49136741870 
+mul_error_1: 92297 mul_error_2: 92298 
 
-guess: 24568370950 error_1: 24567259839 error_2: 24568370926 
-mul_error_1: 22110 mul_error_2: 22111 
+guess: 24568370938 error_1: 24567838569 error_2: 24568370933 
+mul_error_1: 46148 mul_error_2: 46149 
 
-guess: 12284185500 error_1: 12283074389 error_2: 12284185450 
-mul_error_1: 11054 mul_error_2: 11055 
+guess: 12284185474 error_1: 12283653105 error_2: 12284185464 
+mul_error_1: 23073 mul_error_2: 23074 
 
-guess: 6142092800 error_1: 6140981689 error_2: 6142092700 
-mul_error_1: 5526 mul_error_2: 5527 
+guess: 6142092748 error_1: 6141560379 error_2: 6142092726 
+mul_error_1: 11536 mul_error_2: 11537 
 
-guess: 3071046500 error_1: 3069935389 error_2: 3071046300 
-mul_error_1: 2762 mul_error_2: 2763 
+guess: 3071046397 error_1: 3070514028 error_2: 3071046351 
+mul_error_1: 5767 mul_error_2: 5768 
 
-guess: 1535523451 error_1: 1534412340 error_2: 1535523049 
-mul_error_1: 1380 mul_error_2: 1381 
+guess: 1535523244 error_1: 1534990875 error_2: 1535523153 
+mul_error_1: 2883 mul_error_2: 2884 
 
-guess: 767762127 error_1: 766651016 error_2: 767761324 
-mul_error_1: 689 mul_error_2: 690 
+guess: 767761714 error_1: 767229345 error_2: 767761530 
+mul_error_1: 1441 mul_error_2: 1442 
 
-guess: 383881867 error_1: 382770756 error_2: 383880260 
-mul_error_1: 344 mul_error_2: 345 
+guess: 383881041 error_1: 383348672 error_2: 383880673 
+mul_error_1: 720 mul_error_2: 721 
 
-guess: 191942541 error_1: 190831430 error_2: 191939326 
-mul_error_1: 171 mul_error_2: 172 
+guess: 191940889 error_1: 191408520 error_2: 191940152 
+mul_error_1: 359 mul_error_2: 360 
 
-guess: 95974486 error_1: 94863375 error_2: 95968055 
-mul_error_1: 85 mul_error_2: 86 
+guess: 95971182 error_1: 95438813 error_2: 95969707 
+mul_error_1: 179 mul_error_2: 180 
 
-guess: 47993674 error_1: 46882563 error_2: 47980812 
-mul_error_1: 42 mul_error_2: 43 
+guess: 47987067 error_1: 47454698 error_2: 47984115 
+mul_error_1: 89 mul_error_2: 90 
 
-guess: 24009698 error_1: 22898587 error_2: 23983976 
-mul_error_1: 20 mul_error_2: 21 
+guess: 23996486 error_1: 23464117 error_2: 23990581 
+mul_error_1: 44 mul_error_2: 45 
 
-guess: 12030558 error_1: 10919447 error_2: 11979140 
-mul_error_1: 9 mul_error_2: 10 
+guess: 12004148 error_1: 11471779 error_2: 11992338 
+mul_error_1: 21 mul_error_2: 22 
 
-guess: 6066588 error_1: 4955477 error_2: 5963970 
+guess: 6013878 error_1: 5481509 error_2: 5990270 
+mul_error_1: 10 mul_error_2: 11 
+
+guess: 3030502 error_1: 2498133 error_2: 2983376 
 mul_error_1: 4 mul_error_2: 5 
 
-guess: 3135045 error_1: 2023934 error_2: 2931543 
+guess: 1562011 error_1: 1029642 error_2: 1468491 
 mul_error_1: 1 mul_error_2: 2 
 
-guess: 1764420 error_1: 653309 error_2: 1370625 
+guess: 871727 error_1: 339358 error_2: 690284 
 mul_error_1: 0 mul_error_2: 1 
 
-guess: 1232060 error_1: 120949 error_2: 532360 
+guess: 598424 error_1: 66055 error_2: 273303 
 mul_error_1: 0 mul_error_2: 0 
 
-guess: 1117047 error_1: 5936 error_2: 115013 
+guess: 536015 error_1: 3646 error_2: 62409 
 mul_error_1: 0 mul_error_2: 0 
 
-guess: 1111126 error_1: 15 error_2: 5921 
+guess: 532381 error_1: 12 error_2: 3634 
 mul_error_1: 0 mul_error_2: 0 
 
-guess: 1111111 error_1: 0 error_2: 15 
+guess: 532369 error_1: 0 error_2: 12 
 mul_error_1: 0 mul_error_2: 0 
 
