@@ -19,4 +19,4 @@ path = "./src/no_guess_test.rs"
 
 [[bin]]
 name =  "test2"
-path = "./src/quad_conv_b.rs"
+path = "./src/is_quad_conv_deterministic.rs"
