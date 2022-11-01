@@ -3,8 +3,8 @@ use std::fs::File;
 use std::io::prelude::*;
 
 fn main () {
-    let mut file = File::create("determinism_v2.txt").unwrap();
-    let n = 8282437823748327842739028432843847;
+    let mut file = File::create("determinism_v.txt").unwrap();
+    let n = 1234567866790;
     let (root, y) = quad_conv_proof::newton_sqrt_u128(n, 98273483741);
     println!("i: {}, y: {}", n, y.len());
     file.write_all (format!("i: {}, y: {} \n", n, y.len()).as_bytes()).unwrap();
