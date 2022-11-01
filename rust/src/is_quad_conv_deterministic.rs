@@ -7,6 +7,7 @@ fn main () {
     let n = 8282437823748327842739028432843847;
     let (root, y) = quad_conv_proof::newton_sqrt_u128(n, 98273483741);
     println!("i: {}, y: {}", n, y.len());
+    file.write_all (format!("i: {}, y: {} \n", n, y.len()).as_bytes()).unwrap();
 
     let mut i = 0;
     let mut errors = Vec::new();
