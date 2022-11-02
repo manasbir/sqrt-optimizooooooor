@@ -29,8 +29,11 @@ fn main () {
             error_difs.push(0);
         }
         
+        let mut me: f64 = (errors[i] as f64 / root as f64 ) as f64;
+        let mut me2: f64 = (error_difs[i] as f64 / root as f64) as f64;
+
         file.write_all(format!("guess: {} error_1: {} error_2: {} \n", y[i], errors[i], error_difs[i]).as_bytes()).unwrap();
-        file.write_all(format!("mul_error_1: {} mul_error_2: {} \n\n", errors[i]/root, error_difs[i]/root).as_bytes()).unwrap();
+        file.write_all(format!("mul_error_1: {} mul_error_2: {} \n\n", me, me2).as_bytes()).unwrap();
         println!("guess: {} error_1: {} error_2: {}", y[i], errors[i], error_difs[i]);
         i+=1;
     }
