@@ -20,3 +20,7 @@ path = "./src/no_guess_test.rs"
 [[bin]]
 name =  "test2"
 path = "./src/is_quad_conv_deterministic.rs"
+
+[[bin]]
+name =  "testtest"
+path = "./src/testtest.rs"
