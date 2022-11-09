@@ -7,12 +7,12 @@
 
 there are no new notes >:(
 
-- figure out how the solmate implementation works
+- figure out how the solmate implementation works (i understand now!)
 
-- if my method requires one less iteration
+- if my method requires one less iteration (it doesnt)
 
 - figure out what quadratically convergent really means, like what is the worst case scenario with enough accuracy
-and can we prove it mathematically
+and can we prove it mathematically (i did it!)
 
 -  ``z := sub(z, lt(div(x, z), z))`` is such a banger line of code
 
@@ -23,7 +23,7 @@ and can we prove it mathematically
 ##
 the eternal pursuit to get the most efficient square root function 
 
-things will be written in python, then graphed, then written in solidity, then huff and yul (yul idk why, but its my repo lol)
+things will be written in python, then graphed, then written in solidity, then huff and yul
 
 no graphs
 
