@@ -1,7 +1,6 @@
-# optimizooor
-# ill update this later lol, so much to write
-## learning a lot of math atm, so i can mess with understanding quadratic convergence
-## ill publish an article if it gets interesting or if anyone cares
+## optimizooor
+### ill update this later lol, so much to write
+### ill publish an article if it gets interesting or if anyone cares
 
 # new notes !!!!!!
 
