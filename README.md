@@ -2,7 +2,7 @@
 ### ill update this later lol, so much to write
 ### ill publish an article if it gets interesting or if anyone cares
 
-# new notes !!!!!!
+#### new notes !!!!!!
 
 there are no new notes >:(
 
