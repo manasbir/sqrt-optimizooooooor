@@ -1,11 +1,7 @@
-## optimizooor
-### ill update this later lol, so much to write
-### ill publish an article if it gets interesting or if anyone cares
+# optimizooor
+Built for fun then used knowledge for a Math 12 paper. Unfortunately, no MVP/complete version - it would require quite a bit of bruteforce/manual tinkering.
 
-#### new notes !!!!!!
-
-there are no new notes >:(
-
+#### OLD notes ~~~~~
 - figure out how the solmate implementation works (i understand now!)
 
 - if my method requires one less iteration (it doesnt)
@@ -14,9 +10,6 @@ there are no new notes >:(
 and can we prove it mathematically (i did it!)
 
 -  ``z := sub(z, lt(div(x, z), z))`` is such a banger line of code
-
-
-
 
 
 ##
